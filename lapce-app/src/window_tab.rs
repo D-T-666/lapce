@@ -1207,6 +1207,9 @@ impl WindowTabData {
                 self.main_split.next_error();
             }
             PreviousError => {}
+            Panic => {
+                panic!();
+            }
             Quit => {
                 floem::quit_app();
             }

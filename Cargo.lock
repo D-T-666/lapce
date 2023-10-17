@@ -2623,6 +2623,7 @@ dependencies = [
  "Inflector",
  "alacritty_terminal",
  "anyhow",
+ "backtrace",
  "base64 0.21.0",
  "bytemuck",
  "chrono",
@@ -2672,6 +2673,7 @@ dependencies = [
  "tracing-subscriber",
  "unicode-width",
  "url",
+ "windows-sys 0.48.0",
  "zip",
 ]
 

@@ -498,6 +498,10 @@ pub enum LapceWorkbenchCommand {
     #[strum(serialize = "previous_error")]
     PreviousError,
 
+    #[strum(serialize = "panic")]
+    #[strum(message = "Panic Editor")]
+    Panic,
+
     #[strum(serialize = "quit")]
     #[strum(message = "Quit Editor")]
     Quit,
