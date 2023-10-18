@@ -3756,8 +3756,9 @@ fn panic_hook() {
             None => {
                 error!(
                     target: "lapce_app::panic_hook",
-                    "thread {thread} panicked at {}",
+                    "thread {thread} panicked at {}\n{:?}",
                     payload,
+                    backtrace,
                 );
             }
         }
